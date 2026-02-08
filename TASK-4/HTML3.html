@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>PRODUCT PAGE</title>
+    <link rel="stylesheet" href="css3.css">
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <center>
+      <div class="id">
+        <h1>PRODUCTS</h1>
+        <section id="products">
+          <select class="brand" onchange="filterProducts(this.value)">
+            <option value="all">all</option>
+            <option value="electronics">electronics</option>
+            <option value="fashion">fashion</option>
+          </select>
+          <select onchange="sortProducts(this.value)" class="rating">
+            <option value="all">sort by</option>
+            <option value="price">price low to high</option>
+            <option value="rating">rating high to low</option>
+          </select>
+          <div id="productList"></div>
+        </section>
+        <br><br><br>
+        <table id="product-table">
+          <tr>
+            <td>
+              <main data-category="electronics" data-price="15000" data-rating="4.5">
+                <img src="https://reapp.com.gh/wp-content/uploads/2019/02/iphone-x-64gb-space-grey-front-Format-800.jpg">
+                <br><b>📱MOBILE<br></b>💰15000<br> ⭐4.5<br>
+              </main>
+            </td>
+            <td>
+              <main data-category="electronics" data-price="60000" data-rating="4.8">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.8dONY82usxXQzZHJ_OgwfQHaFR?rs=1&pid=ImgDetMain&o=7&rm=3"><br> <b>💻LAPTOP</b><br> 💰60000<br> ⭐4.8<br>
+              </main>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <main data-category="fashion" data-price="600" data-rating="4.0">
+                <img src="https://cdn.pixabay.com/photo/2024/02/06/18/10/ai-generated-8557635_1280.jpg"><br><b>👕T-SHIRT<br></b>💰600<br> ⭐4.0
+              </main>
+            </td>
+            <td>
+              <main data-category="fashion" data-price="1000" data-rating="4.2">
+                <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-webdonut-19090.jpg&fm=jpg"><br><b>🥾SHOES</b><br> 💰1000<br> ⭐4.2<br>
+              </main>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </body>
+</html>

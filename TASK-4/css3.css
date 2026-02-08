@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(235, 231, 231);
+}
+
+.id {
+  background-color: rgb(184, 223, 210);
+  width: 800px;
+  height: 800px;
+}
+
+main {
+  width: 250px;
+  height: 150px;
+  border: 1px solid;
+  text-align: center;
+  background-color: rgb(176, 191, 220);
+  border-radius: 20px;
+  margin: 40px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.brand, .rating {
+  background-color: rgb(198, 198, 239);
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-right: 50px;
+}
+h1{
+  background-color: rgb(219, 219, 255);
+  width: 650px;
+  height: 50px;
+  border:null;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}

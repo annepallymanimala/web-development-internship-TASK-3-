@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(233, 235, 237);
+}
+h1{
+    background-color:rgb(228, 213, 244);
+    width:800px;
+    height:50px;
+    border-radius: 15px;
+    border: null;
+    align-content:center;
+    font-family:Segoe UI;
+}
+main{
+    background-color:rgb(207, 226, 220);
+    width:800px;
+    height:180px;
+    align-content: center;
+    border-radius: 15px;
+    border: null;
+    font-family:Segoe UI;
+    font-size: large;
+    color:black;
+
+}
+div{
+    background-color:rgb(215, 215, 240);
+    width:800px;
+    height:130px;
+    border-radius: 15px;
+    border: null;
+    text-align: left;
+    padding: 5px;
+    font-family:Segoe UI;
+    font-size: large;
+}
+.aboutme{
+    color:rgb(75, 73, 73);
+}
+.projects{
+    background-color:rgb(209, 213, 203);
+    width:800px;
+    height:150px;
+    border-radius: 15px;
+    border: null;
+    text-align: left;
+    padding: 5px;
+    font-family:Segoe UI;
+    font-size: large;
+    color:rgb(75, 73, 73);
+}
+h3{
+    color:rgb(118, 118, 184);
+}
+li{
+     color:rgb(75, 73, 73);
+     font-family: Segoe UI;
+}
+.contact{
+    background-color:rgb(174, 179, 174);
+    width:800px;
+    height:100px;
+    border-radius: 15px;
+    border: null;
+    text-align: left;
+    padding: 5px;
+    font-family:Segoe UI;
+    font-size: large;
+    color:rgb(75, 73, 73);
+    
+
+}
